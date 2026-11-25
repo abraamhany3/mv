@@ -67,8 +67,8 @@ h2{font-family:"Noto Kufi Arabic",sans-serif;color:var(--g);font-size:clamp(24px
 .otag{text-align:center;margin-top:36px}
 .otag .btn{background:var(--g);color:#fff}
 /* hero img */
-.hero{padding:34px 0 10px}
-.hero img{width:100%;border-radius:30px;box-shadow:0 14px 40px rgba(0,0,0,.18);will-change:transform}
+.hero{padding:44px 0 30px}
+.hero img{width:100%;max-height:480px;object-fit:cover;border-radius:30px;box-shadow:0 14px 40px rgba(0,0,0,.18);will-change:transform}
 .units{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;padding:48px 0 70px}
 .u{text-align:center}
 .u h3{font-family:"Cardo",serif;color:var(--g);font-size:24px;font-weight:700}
@@ -126,7 +126,7 @@ body{opacity:0;animation:pg .8s .05s ease forwards}@keyframes pg{to{opacity:1}}
   <p class="rv">ماونتن فيو القاهرة الجديدة. تجربة حياة حقيقية وفريدة من نوعها، حيث يمكنك بسهولة جمع جميع أفراد العائلة معًا بعيدًا عن الانحرافات في حياتنا سريعة الخطى. محاطة بالطبيعة الخضراء ومناظر الأفق، تضفي على حياتك بُعدًا آخر من جودة الحياة.</p>
   <img class="rv" style="--d:.15s" src="15-logo.png" alt="Mountain View New Cairo">
  </div>
- <nav class="pills"><a href="#units">الوحدات المتاحة</a><a href="#location">الموقع</a><a href="#features">المميزات</a></nav>
+ <nav class="pills"><a href="#offer">العرض</a><a href="#about">عن آي سيتي</a><a href="#register">سجّل الآن</a></nav>
 </header>
 
 <section class="gold" id="register">
@@ -165,35 +165,14 @@ body{opacity:0;animation:pg .8s .05s ease forwards}@keyframes pg{to{opacity:1}}
  <div class="otag rv"><a class="btn" href="#register">احجز استشارتك</a></div>
 </div></section>
 
-<section class="hero"><div class="wrap"><img class="rv" id="cov" src="1-cover.webp" alt="Mountain Park" loading="lazy"></div></section>
-
-<section id="units"><div class="wrap">
- <div class="units">
-  <div class="u rv"><h3>iVilla</h3><div class="orn" style="color:var(--g)"><i></i></div><div class="im"><img src="9-ivilla.webp" alt="iVilla" loading="lazy"></div></div>
-  <div class="u rv" style="--d:.08s"><h3>Townhouse</h3><div class="orn" style="color:var(--g)"><i></i></div><div class="im"><img src="13-town.webp" alt="Townhouse" loading="lazy"></div></div>
-  <div class="u rv" style="--d:.16s"><h3>Lake House</h3><div class="orn" style="color:var(--g)"><i></i></div><div class="im"><img src="10-lake.webp" alt="Lake House" loading="lazy"></div></div>
-  <div class="u rv" style="--d:.24s"><h3>Standalone</h3><div class="orn" style="color:var(--g)"><i></i></div><div class="im"><img src="12-stand.webp" alt="Standalone" loading="lazy"></div></div>
-  <div class="u rv" style="--d:.32s"><h3>Wood House</h3><div class="orn" style="color:var(--g)"><i></i></div><div class="im"><img src="14-wood.webp" alt="Wood House" loading="lazy"></div></div>
- </div>
-</div></section>
+<section class="hero"><div class="wrap"><img class="rv" id="cov" src="8-icity.webp" alt="ماونتن فيو آي سيتي" loading="lazy"></div></section>
 
 <section class="info"><div class="wrap">
- <div class="row" id="location">
-  <div class="rv"><h2>موقع ماونتن بارك</h2><div class="orn" style="color:var(--g)"><i></i></div>
-   <p style="text-align:center">موقع استثنائي في قلب القاهرة الجديدة</p>
-   <ul style="margin-top:18px"><li>٤ دقائق من طريق السويس</li><li>١١ دقيقة من ماونتن فيو 2</li><li>١٥ دقيقة من ماونتن فيو 1</li><li>١٧ دقيقة من الجامعة الأمريكية بالقاهرة</li><li>٢٥ دقيقة من شارع الثورة</li></ul></div>
-  <img class="rv" style="--d:.15s" src="11-map.webp" alt="خريطة الموقع" loading="lazy">
- </div>
- <div class="row r2" id="features">
-  <div class="rv"><h2>مميزات المشروع</h2><div class="orn" style="color:var(--g)"><i></i></div>
-   <p style="text-align:center">المشروع على ارتفاع 300 متر فوق مستوى سطح البحر، حيث تقع الفيلات بأعلى منطقة في ماونتن بارك بإطلالة على سنترال بارك الغني بالمناظر البانورامية.</p>
-   <p class="tags" style="text-align:center">Waterfalls – Swimmable Lagoon – Water Walk – Gate – Lake – Central Park – Creek – Bridge – Observation Terrace</p></div>
-  <img class="rv" style="--d:.15s" src="2-feat.webp" alt="مميزات المشروع" loading="lazy">
- </div>
- <div class="row">
+ <div class="row" id="about">
   <div class="rv ground"><h2>ماونتن فيو آي سيتي</h2><div class="orn" style="color:var(--g)"><i></i></div>
-   <p>مجمع سكني متكامل في قلب التجمع الخامس بالقاهرة الجديدة، بالقرب من مدينة الرحاب والجامعة الأمريكية.</p></div>
-  <img class="rv" style="--d:.15s" src="8-icity.webp" alt="ماونتن فيو آي سيتي" loading="lazy">
+   <p>مجمع سكني متكامل في قلب التجمع الخامس بالقاهرة الجديدة، بالقرب من مدينة الرحاب والجامعة الأمريكية.</p>
+   <p style="margin-top:14px"><a class="btn" style="background:var(--g);color:#fff" href="#register">احجز استشارتك</a></p></div>
+  <img class="rv" style="--d:.15s" src="6-g4.webp" alt="ماونتن فيو آي سيتي" loading="lazy">
  </div>
 </div></section>
 
